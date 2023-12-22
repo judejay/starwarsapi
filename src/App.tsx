@@ -17,7 +17,7 @@ function App() {
         } else if (response.status === 500) {
           setErrorMessage("Oops... something went wrong, try again 🤕");
         } else if (response.status === 418) {
-          setErrorMessage("418 I'm a teapot 🫖, silly");
+          setErrorMessage(`418 I'm a \u{1FAD6} , silly`);
         }
       } catch (error) {
         console.log(error);
